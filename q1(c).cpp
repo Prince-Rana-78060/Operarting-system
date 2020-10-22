@@ -39,3 +39,18 @@ int main()
 	cout<<endl;
 	return 0;
 }
+
+ /* OUTPUT
+ 
+ ~~~~~CHILD EXECUTING~~~~~
+Child pid :0
+Child getpid :6686
+Child getppid :6685
+~~~~~CHILD EXECUTED~~~~~
+~~~~~PARENT EXECUTING~~~~~
+Parent pid :6686
+Parent getpid :6685
+Parent getppid :5963
+~~~~~PARENT EXECUTED~~~~~
+
+*/
