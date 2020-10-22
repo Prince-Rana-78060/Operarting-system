@@ -26,3 +26,12 @@ int main(){
 	cout<<endl;
 	return 0;
 }
+
+/* OUTPUT
+
+Process execuiting...
+PID :6940
+getpid :6939
+getppid :4255
+
+*/
